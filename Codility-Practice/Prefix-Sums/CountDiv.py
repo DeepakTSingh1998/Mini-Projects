@@ -4,4 +4,6 @@ def solution (A,B,K):
         Divider = i % K
         if Divider == 0:
             Div_counter += 1
+           
+    return Div_counter
         
